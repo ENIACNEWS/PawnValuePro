@@ -3,11 +3,11 @@ import { Bell, Gem } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link, useLocation } from "wouter";
 
-interface LayoutProps {
+interface LayoutVisionps {
   children: ReactNode;
 }
 
-export default function Layout({ children }: LayoutProps) {
+export default function Layout({ children }: LayoutVisionps) {
   const [location] = useLocation();
 
   const isActive = (path: string) => {
@@ -25,8 +25,8 @@ export default function Layout({ children }: LayoutProps) {
             <div className="flex items-center space-x-4">
               <Link href="/" className="flex items-center">
                 <Gem className="text-gold text-2xl mr-3" />
-                <span className="text-xl font-bold text-white">PawnValue</span>
-                <span className="text-gold ml-1 font-light">Pro</span>
+                <span className="text-xl font-bold text-white">Pawn</span>
+                <span className="text-gold ml-1 font-light">Vision</span>
               </Link>
             </div>
             
@@ -77,10 +77,10 @@ export default function Layout({ children }: LayoutProps) {
             <div>
               <div className="flex items-center mb-4">
                 <Gem className="text-gold text-xl mr-2" />
-                <span className="text-lg font-bold">PawnValue Pro</span>
+                <span className="text-lg font-bold">PawnVision</span>
               </div>
               <p className="text-text-gray text-sm">
-                Professional item valuation system for pawn shops, powered by real-time market data and AI-driven pricing algorithms.
+                Visionfessional item valuation system for pawn shops, powered by real-time market data and AI-driven pricing algorithms.
               </p>
             </div>
 
@@ -128,7 +128,7 @@ export default function Layout({ children }: LayoutProps) {
 
           <div className="border-t border-accent-gray/30 mt-8 pt-8 text-center">
             <p className="text-text-gray text-sm">
-              © 2025 PawnValue Pro. All rights reserved. | 
+              © 2025 PawnVision. All rights reserved. | 
               <a href="#" className="text-gold hover:text-gold-dark transition-colors ml-1 mr-1">Privacy Policy</a> | 
               <a href="#" className="text-gold hover:text-gold-dark transition-colors">Terms of Service</a>
             </p>

@@ -1,4 +1,4 @@
-# PawnValue Pro
+# PawnVision
 
 **Professional Item Valuation Platform for Pawn Shops & Resellers**
 
@@ -6,7 +6,7 @@
 
 ## What It Does
 
-PawnValue Pro gives pawn shop owners instant, data-driven pricing on any item they receive. Instead of guessing or relying on experience alone, staff can scan a barcode, search by name, or manually enter item details and get a real market valuation in seconds — pulled from live sources like eBay sold listings, KBB/Edmunds for vehicles, and electronics pricing APIs.
+PawnVision gives pawn shop owners instant, data-driven pricing on any item they receive. Instead of guessing or relying on experience alone, staff can scan a barcode, search by name, or manually enter item details and get a real market valuation in seconds — pulled from live sources like eBay sold listings, KBB/Edmunds for vehicles, and electronics pricing APIs.
 
 ---
 
@@ -132,7 +132,7 @@ The app runs on `http://localhost:5000`
 
 ## Market Opportunity
 
-The pawn industry in the US processes over **$6 billion** in loans annually across 11,000+ shops. Most shops still rely on manual pricing — outdated price guides, personal experience, or time-consuming online searches. PawnValue Pro brings real-time market intelligence directly to the counter, reducing undervaluation risk and increasing shop profitability.
+The pawn industry in the US processes over **$6 billion** in loans annually across 11,000+ shops. Most shops still rely on manual pricing — outdated price guides, personal experience, or time-consuming online searches. PawnVision brings real-time market intelligence directly to the counter, reducing undervaluation risk and increasing shop profitability.
 
 ---
 
